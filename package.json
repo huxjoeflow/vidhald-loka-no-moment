@@ -1,0 +1,21 @@
+{
+  "name": "eslint-no-moment",
+  "version": "1.0.0",
+  "description": "",
+  "main": "eslint_custom_rules/noMoment.js",
+  "files":[
+    "eslint_custom_rules"
+  ], 
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "eslint": "^8.57.0"
+  },
+  "peerDependencies": {
+    "eslint": "^8.57.0"
+}
+}
