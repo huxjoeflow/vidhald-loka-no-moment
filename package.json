@@ -1,21 +1,17 @@
 {
-  "name": "eslint-no-moment",
+  "name": "@huxjoeflow/eslint-plugin-no-moment",
   "version": "1.0.0",
-  "description": "",
-  "main": "eslint_custom_rules/noMoment.js",
-  "files":[
-    "eslint_custom_rules"
-  ], 
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+  "description": "A custom ESLint plugin to forbid the use of moment.js",
+  "repository": "https://github.com/huxjoeflow/eslint-plugin-no-moment",
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
   },
-  "keywords": [],
-  "author": "",
+  "main": "index.js",
+  "keywords": ["eslint", "plugin", "moment"],
+  "author": "Your Name",
   "license": "ISC",
-  "devDependencies": {
-    "eslint": "^8.57.0"
-  },
   "peerDependencies": {
-    "eslint": "^8.57.0"
+    "eslint": ">=8.57.0"
 }
+
 }
